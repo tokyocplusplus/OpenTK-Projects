@@ -9,7 +9,7 @@ using OpenTK.Windowing.GraphicsLibraryFramework;
 namespace MAIN_FILE {
     class Game : GameWindow {
         [Obsolete] // to get rid of warnings
-        public Game() : base(GameWindowSettings.Default, new NativeWindowSettings() {Size = new Vector2i(800,600),Title = "title"}) {} // window settings
+        public Game() : base(GameWindowSettings.Default, new NativeWindowSettings() {Size = new Vector2i(640,360),Title = "a pink window :3"}) {} // window settings
         protected override void OnLoad()
         {
             base.OnLoad();
