@@ -6,7 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 namespace MAIN_FILE {
-  public class haii {
+  public class Haii {
     public static void Main() {
       Console.WriteLine("haiii!!");
     }
